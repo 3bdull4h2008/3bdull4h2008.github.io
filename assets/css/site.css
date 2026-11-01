@@ -1,0 +1,307 @@
+/* Abdullah Atef - clean editorial portfolio. No glass, no ghost device. */
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  * { animation: none !important; transition: none !important; }
+}
+
+:target, [id] { scroll-margin-top: 96px; }
+
+body { margin: 0; background: var(--surface);
+  color: var(--on-surface-muted); font-family: var(--font-body);
+  font-size: var(--type-body); line-height: 1.62;
+  -webkit-font-smoothing: antialiased; }
+img { max-width: 100%; height: auto; display: block; }
+figure { margin: 0; }
+a { color: var(--on-surface); text-decoration: none; }
+a:hover { text-decoration: underline; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+
+h1, h2, h3 {
+  font-family: var(--font-display); color: var(--on-surface);
+  font-weight: 600; line-height: 1.02; letter-spacing: -0.02em; margin: 0;
+  text-wrap: balance;
+}
+h1 { font-size: clamp(2.4rem, 7vw, var(--type-h1)); letter-spacing: -0.02em; }
+h2 { font-size: clamp(1.6rem, 3.4vw, var(--type-h2)); letter-spacing: -0.015em; }
+h3 { font-size: var(--type-h3); letter-spacing: -0.01em; }
+p { margin: 0 0 var(--space-md); max-width: 62ch; }
+
+.mt { margin-top: var(--space-xl); }
+.wrap { width: min(1440px, 100% - 2 * var(--space-md));
+        margin-inline: auto; }
+@media (min-width: 800px) { .wrap { width: min(1440px, 100% - 2 * var(--space-lg)); } }
+
+.label { font-family: var(--font-display); font-size: var(--type-label);
+  font-weight: 500; letter-spacing: 0.14em; text-transform: uppercase;
+  color: var(--on-surface-faint); margin: 0; }
+.small { font-size: var(--type-small); }
+
+/* The document ships Arabic and RTL, so the page itself carries the Arabic
+   family; every Latin or Arabic run that disagrees with the document marks
+   itself with lang and - for embedded runs - dir. Nothing below assumes a
+   direction: layout uses logical properties throughout, so flipping dir
+   mirrors the whole page. */
+html[lang="ar"] body { font-family: var(--font-arabic); }
+
+[lang="ar"], .label[lang="ar"], .site-nav a[lang="ar"],
+a.link[lang="ar"], .btn[lang="ar"], button.theme[lang="ar"],
+button.lang[lang="ar"], h1[lang="ar"], h2[lang="ar"], h3[lang="ar"],
+.facts th[lang="ar"], .facts td[lang="ar"], caption[lang="ar"],
+.skip[lang="ar"], .theme__text[lang="ar"], .steps strong[lang="ar"],
+.band__caption[lang="ar"], .study__credit[lang="ar"],
+.section__more[lang="ar"], .site-foot__status[lang="ar"],
+.site-foot__legal[lang="ar"], .site-foot__ar[lang="ar"] {
+  font-family: var(--font-arabic); letter-spacing: 0; text-transform: none; }
+
+/* Arabic gets no negative tracking and no synthetic slant: the script is
+   joined, so the Latin display conventions are switched off wholesale. */
+h1[lang="ar"], h2[lang="ar"], h3[lang="ar"] { line-height: 1.28; }
+
+/* skip link */
+.skip { position: absolute; inset-inline-start: -9999px; top: 0; z-index: 100;
+  padding: var(--space-sm) var(--space-md); background: var(--accent);
+  color: var(--on-accent); font-family: var(--font-display);
+  font-size: var(--type-label); text-transform: uppercase; }
+.skip:focus { inset-inline-start: 0; }
+
+/* header */
+.site-head { position: sticky; top: 0; z-index: 20;
+  border-bottom: 1px solid var(--surface-line); background: var(--surface); }
+.site-head__inner { display: flex; align-items: center; gap: var(--space-md);
+  min-height: 64px; padding: 0 var(--space-md); }
+.brand { display: flex; align-items: center; gap: 10px; font-family: var(--font-display);
+  font-weight: 600; letter-spacing: 0.06em; }
+.brand__mark { width: 34px; height: 34px; color: var(--on-surface); }
+.brand__text { font-size: var(--type-small); }
+.site-nav { display: flex; margin-inline-start: var(--space-lg); }
+.site-nav ul { display: flex; gap: var(--space-lg); list-style: none; padding: 0; margin: 0; }
+.site-nav a { font-family: var(--font-display); font-size: var(--type-label);
+  text-transform: uppercase; letter-spacing: var(--type-label-tracking);
+  color: var(--on-surface-muted); }
+.site-nav a:hover { color: var(--on-surface); }
+.site-nav a[aria-current="page"] { color: var(--on-surface); }
+
+.theme, .lang { display: inline-flex; align-items: center; gap: 8px;
+  white-space: nowrap;
+  background: none; border: 1px solid var(--surface-line); color: var(--on-surface-muted);
+  cursor: pointer; font-family: var(--font-display); font-size: var(--type-micro);
+  letter-spacing: var(--type-micro-tracking); text-transform: uppercase;
+  padding: 6px 12px; margin-inline-start: 6px; }
+.theme__dot { width: 8px; height: 8px; border-radius: 50%;
+  background: var(--accent); flex: none; }
+.theme__text { font-size: var(--type-micro); letter-spacing: 0.14em; }
+.theme:hover, .lang:hover { color: var(--on-surface); border-color: var(--on-surface-faint); }
+
+/* Hero */
+.hero { position: relative; min-height: 100svh; display: grid; align-items: end;
+  padding-bottom: 7vh; overflow: hidden; isolation: isolate; }
+.plate--fill { position: absolute; inset: 0; z-index: 0; width: 100%; height: 100%;
+  aspect-ratio: auto; border: 0; }
+.hero__veil { position: absolute; inset: 0; z-index: 1;
+  background: rgba(7, 10, 7, 0.42); }
+.hero__inner { position: relative; z-index: 2; }
+.hero__plate { max-width: 880px; padding: clamp(24px,4vw,48px);
+  background: rgba(7, 10, 7, 0.86);
+  border-inline-start: 2px solid var(--color-accent); }
+.hero__plate .label { color: var(--color-text600); }
+.hero__name { margin-top: 10px; text-transform: uppercase; line-height: 0.9;
+  font-size: clamp(2.2rem, 6.4vw, 88px); color: var(--color-text); }
+.hero__desc { font-size: clamp(1.2rem,2.2vw,1.6rem);
+  margin: 14px 0 0; text-align: start; color: var(--color-text); }
+.hero__latin { margin: 12px 0 0; max-width: 46ch; color: var(--color-text600); }
+.hero__rule { height: 2px; width: 96px; background: var(--accent); margin: 16px 0 0; }
+
+.plate { background-color: var(--ph, var(--surface-raised)); }
+
+.band__caption { font-size: var(--type-micro); letter-spacing: 0.1em;
+  color: var(--on-surface-muted); margin: 0; padding: var(--space-sm) 0 var(--space-md);
+  max-width: 90ch; }
+
+/* sections */
+.section { padding: var(--space-xxl) 0; border-top: 1px solid var(--surface-line); }
+.section__head { display: flex; align-items: baseline; gap: var(--space-md);
+  flex-wrap: wrap; margin-bottom: var(--space-lg); }
+.section__head h2 { max-width: 22ch; }
+.section__more { margin-top: var(--space-md); font-family: var(--font-display);
+  text-transform: uppercase; font-size: var(--type-label); letter-spacing: 0.14em; }
+.section__legal { font-size: var(--type-micro); letter-spacing: 0.1em;
+  color: var(--on-surface-faint); margin-top: var(--space-sm); }
+
+.grid { display: grid; gap: var(--space-xl) var(--space-md);
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
+.card { display: block; }
+.card__link { display: block; text-decoration: none;
+  transition: transform 320ms cubic-bezier(.2,.7,.2,1); }
+.card .plate { overflow: hidden; }
+.card img { transition: transform 420ms cubic-bezier(.2,.7,.2,1); }
+.card__link:hover { transform: translateY(-6px); }
+.card__link:hover img { transform: scale(1.02); }
+.card__media { margin-bottom: var(--space-sm); }
+.card__title { font-size: var(--type-h4); margin: 6px 0 0; }
+.card__subject { margin: 0; font-size: var(--type-small);
+  color: var(--on-surface-muted); }
+
+/* masthead */
+.masthead { padding: calc(var(--space-xl) + 56px) 0 var(--space-lg);
+  border-bottom: 1px solid var(--surface-line); }
+.masthead h1 { max-width: 22ch; }
+.masthead p { max-width: 60ch; }
+
+/* studies */
+.study { padding: var(--space-xxl) 0; border-bottom: 1px solid var(--surface-line);
+  display: grid; gap: var(--space-md); }
+.study__head { display: grid; gap: var(--space-xs); }
+.study__title { font-size: clamp(1.8rem, 4.5vw, var(--type-h2)); }
+.study__subject { margin: 0; color: var(--on-surface-faint); }
+.study__lead { position: relative; }
+.study__lead .plate { aspect-ratio: 16 / 9; }
+.study__note { font-size: var(--type-small);
+  border-inline-start: 2px solid var(--accent);
+  padding-inline-start: var(--space-md); max-width: 70ch; }
+.study__note .label { display: block; margin-bottom: 4px; }
+.study__credit { font-size: var(--type-micro);
+  letter-spacing: var(--type-micro-tracking);
+  color: var(--on-surface-faint); border-top: 1px solid var(--surface-line);
+  padding-top: var(--space-sm); margin-top: var(--space-sm); max-width: 80ch; }
+.pair { display: grid; gap: var(--space-md); margin-top: var(--space-md); }
+@media (min-width: 900px) {
+  .pair { grid-template-columns: 1fr 1fr; }
+  .pair .plate:first-child { grid-column: 1 / -1; aspect-ratio: 16 / 9; }
+}
+
+/* footer */
+.site-foot { border-top: 1px solid var(--surface-line);
+  padding: var(--space-xl) 0 var(--space-lg); margin-top: var(--space-xl); }
+.site-foot__grid { display: grid; gap: var(--space-lg);
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); }
+.site-foot__name { margin: 4px 0 0; color: var(--on-surface); }
+.site-foot__ar { color: var(--on-surface-muted);
+  margin: 4px 0 0; text-align: start; }
+.site-foot__status { font-size: var(--type-label); letter-spacing: 0.08em;
+  text-transform: uppercase; display: flex; align-items: center; gap: 8px;
+  margin-top: var(--space-lg); padding-top: var(--space-md);
+  border-top: 1px solid var(--surface-line); color: var(--on-surface-muted); }
+.dot { width: 8px; height: 8px; border-radius: 50%; background: var(--accent);
+  flex: none; }
+.site-foot__legal { font-size: var(--type-micro); letter-spacing: 0.1em;
+  color: var(--on-surface-faint); margin-top: var(--space-sm); }
+
+/* motion */
+.js [data-reveal] { opacity: 0; transform: translateY(24px); }
+[data-reveal] { transition: opacity 680ms cubic-bezier(.22,.7,.2,1),
+  transform 680ms cubic-bezier(.22,.7,.2,1);
+  transition-delay: calc(var(--reveal-i, 0) * 70ms); }
+[data-reveal].is-visible { opacity: 1; transform: translateY(0); }
+@keyframes heroRise { from { opacity: 0; transform: translateY(18px); }
+  to { opacity: 1; transform: none; } }
+.js .hero__plate > * { animation: heroRise 700ms cubic-bezier(.22,.7,.2,1) both; }
+.js .hero__plate > *:nth-child(2) { animation-delay: 90ms; }
+.js .hero__plate > *:nth-child(3) { animation-delay: 180ms; }
+.js .hero__plate > *:nth-child(4) { animation-delay: 270ms; }
+@media (prefers-reduced-motion: reduce) { [data-reveal] { opacity: 1;
+  transform: none; transition: none; }
+  .js .hero__plate > * { animation: none; } }
+/* card body */
+.card__body { margin-top: var(--space-sm); }
+.card__title { font-size: var(--type-h4); margin: 6px 0 0; }
+.card__subject { margin: 0; font-size: var(--type-small);
+  color: var(--on-surface-muted); }
+
+.lede { font-size: var(--type-lead); max-width: 60ch; }
+.faint { color: var(--on-surface-faint); }
+.plain { list-style: none; padding: 0; margin: 0; display: grid;
+  gap: var(--space-xs); }
+.plain li { font-size: var(--type-small); }
+
+.section--split { display: grid; gap: var(--space-xl);
+  grid-template-columns: 1.1fr 1fr; }
+@media (max-width: 900px) { .section--split { grid-template-columns: 1fr; } }
+.section--cta { border-top: 1px solid var(--surface-line); }
+.section--cta__row { display: flex; gap: var(--space-lg); align-items: center;
+  flex-wrap: wrap; margin-top: var(--space-md); }
+
+.btn { display: inline-block; font-family: var(--font-display);
+  font-size: var(--type-label); letter-spacing: 0.14em;
+  text-transform: uppercase; text-decoration: none; background: var(--accent);
+  color: var(--on-accent); padding: 14px 22px; border: 0; }
+.btn:hover { opacity: 0.86; }
+.link { font-family: var(--font-display); font-size: var(--type-small);
+  letter-spacing: var(--type-small-tracking); }
+
+.facts { width: 100%; border-collapse: collapse; margin-top: var(--space-md); }
+.facts caption { text-align: start; padding-bottom: var(--space-sm); }
+.facts th, .facts td { text-align: start; vertical-align: top;
+  padding: 12px 0; border-top: 1px solid var(--surface-line); }
+.facts th { font-family: var(--font-display); font-size: var(--type-label);
+  letter-spacing: 0.14em; text-transform: uppercase;
+  color: var(--on-surface-faint); font-weight: 500; width: 38%; }
+.facts td { color: var(--on-surface); font-size: var(--type-small);
+  overflow-wrap: anywhere; }
+
+.steps { list-style: none; padding: 0; margin: 0; display: grid;
+  gap: var(--space-md); counter-reset: step; }
+.steps li { display: grid; gap: var(--space-xs); }
+.steps p { margin: 0; }
+.steps strong { font-family: var(--font-display); font-weight: 600; }
+
+.stack { position: relative; margin-top: var(--space-lg); }
+.stack__plate { max-width: min(52ch, 92%); padding: var(--space-md);
+  background: var(--surface-raised); border: 1px solid var(--surface-line); }
+.stack__plate p { margin: 6px 0 0; font-size: var(--type-small); }
+.stack__plate p:first-child { margin: 0; }
+
+.qr { background: var(--color-paper); border: 1px solid var(--surface-line);
+  padding: var(--space-md); display: inline-grid; gap: var(--space-sm);
+  justify-items: center; }
+.qr .label { color: var(--color-textPaper); }
+.qr img { width: 168px; height: 168px; }
+
+.media__vid { position: absolute; inset: 0; width: 100%; height: 100%;
+  object-fit: cover; z-index: 1; }
+
+/* Light theme: roles that must not simply invert. */
+:root { color-scheme: dark; }
+:root[data-theme='light'] { color-scheme: light; }
+:root[data-theme='light'] .plate {
+  background-color: color-mix(in srgb, var(--ph, var(--surface-raised)) 26%,
+    var(--color-paper)); }
+:root[data-theme='light'] .btn,
+:root[data-theme='light'] .skip {
+  background: var(--color-ink); color: var(--color-paper); }
+:root[data-theme='light'] .qr { border-color: rgba(7, 10, 7, 0.18); }
+
+button { transition: opacity 160ms ease, color 180ms ease,
+  border-color 180ms ease; }
+button:hover { opacity: 0.9; }
+
+/* Phones. Running text and the small labels step up so the copy is readable
+   at arm's length; the headings already scale with the viewport. The header
+   carries five items, so the name - already set at full size in the hero -
+   gives way to the mark, and if a 360px screen still cannot fit them in one
+   row they wrap rather than push the page sideways. */
+@media (max-width: 620px) {
+  :root { --type-body: 17px; --type-small: 15px; --type-micro: 12px; }
+  .brand__text { display: none; }
+  .site-head__inner { flex-wrap: wrap; row-gap: 6px; }
+  .site-nav { margin-inline-start: var(--space-sm); }
+  .site-nav ul { gap: var(--space-md); }
+}
+/* Under ~520px the four header items cannot be relied on to fit by
+   themselves, so the wrap is made explicit rather than left to the measured
+   widths: the name row holds the mark and the two toggles, the nav takes the
+   line below. */
+@media (max-width: 520px) {
+  .brand { order: 1; }
+  .theme { order: 2; margin-inline-start: auto; }
+  .lang { order: 3; }
+  .site-nav { order: 4; flex-basis: 100%; margin-inline-start: 0; }
+}
+
+@media print {
+  .site-head, .theme, .skip, .lang { display: none; }
+  body { background: var(--color-paper); color: var(--color-ink); }
+}

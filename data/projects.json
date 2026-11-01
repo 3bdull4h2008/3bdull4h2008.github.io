@@ -1,0 +1,757 @@
+[
+  {
+    "slug": "matrix-cola",
+    "title": "Matrix Cola",
+    "subject": "Beverage can, Arabic headline",
+    "year": "2026",
+    "blurb": "A can render built around Arabic typography rather than an English layout with Arabic dropped in.",
+    "note": "Condensation is modelled, not painted, and the label was re-created from the reference so the type stays crisp at print size.",
+    "credit": "Depicts a Matrix Cola can. An unsolicited study — Matrix has not commissioned, supplied or endorsed this render.",
+    "title_ar": "Matrix Cola",
+    "subject_ar": "علبة مشروب، عنوان بالعربية",
+    "blurb_ar": "مشهد علبة مبني على الطباعة العربية، لا على تصميم إنجليزي أُدرجت فيه العربية.",
+    "note_ar": "التكاثف مُنمذَج لا مرسوم، وأُعيد إنشاء الملصق من المرجع ليبقى الخط حادًّا بحجم الطباعة.",
+    "credit_ar": "يُصوّر هذا العمل علبة Matrix Cola. دراسة غير مُكلَّف بها؛ لم تكلّف Matrix بإعدادها، ولم تزوّدها، ولم تصادق عليها.",
+    "images": [
+      "shared assets/products/matrix.png"
+    ],
+    "alts": [
+      "A blue cola can on a blue ground, a white Arabic headline above it."
+    ],
+    "alts_ar": [
+      "علبة كولا زرقاء على أرضية زرقاء، وفوقها عنوان أبيض بالعربية."
+    ],
+    "video": null,
+    "source": null
+  },
+  {
+    "slug": "dive-watch",
+    "title": "Dive Watch",
+    "subject": "Wristwatch, macro and breakdown",
+    "year": "2025",
+    "blurb": "Metal is the whole exercise: brushing reads flat, polishing reads dark, and the bezel has to catch one edge without blowing out.",
+    "note": "Three lighting setups were kept from the same scene so the set reads as one grade. The film takes the same case apart and holds the parts in the air, which is the only way to show what was actually modelled.",
+    "credit": "Depicts a Grand Seiko diver. An unsolicited study — Grand Seiko has not commissioned, supplied or endorsed this render.",
+    "title_ar": "ساعة غوص",
+    "subject_ar": "ساعة يد، لقطة قريبة وتفكيك",
+    "blurb_ar": "المعدن هو التمرين كله: التصنفير يبدو مسطّحًا، والتلميع يبدو داكنًا، وعلى الإطار أن يلتقط حافة واحدة دون أن يحترق.",
+    "note_ar": "أُبقيت ثلاث إعدادات إضاءة من المشهد نفسه ليُقرأ الطقم كتدريج لوني واحد. ويفكّ الفيلم علبة الساعة نفسها ويُعلّق الأجزاء في الهواء، وهي الطريقة الوحيدة لإظهار ما جرى نمذجته فعلًا.",
+    "credit_ar": "يُصوّر هذا العمل ساعة غوص من Grand Seiko. دراسة غير مُكلَّف بها؛ لم تكلّف Grand Seiko بإعدادها، ولم تزوّدها، ولم تصادق عليها.",
+    "images": [
+      "watch/poster.png",
+      "watch/pic/3.png",
+      "watch/pic/2.png",
+      "watch/pic/v1.png"
+    ],
+    "alts": [
+      "A steel dive watch taken apart, its bezel, dial and movement floating separately against deep navy.",
+      "Macro of a steel dive watch against black, the bezel catching a hard rim light.",
+      "A dive watch suspended against a deep blue field, bracelet curving out of frame.",
+      "Wireframe pass of the same watch on a flat grey background."
+    ],
+    "alts_ar": [
+      "ساعة غوص من الفولاذ مفكَّكة، وإطارها وميناؤها وحركتها تطفو منفصلة على خلفية كحلية غامقة.",
+      "لقطة قريبة لساعة غوص من الفولاذ على خلفية سوداء، والإطار يلتقط ضوء حافة حادًّا.",
+      "ساعة غوص معلّقة على خلفية زرقاء غامقة، والسوار ينحني خارج الكادر.",
+      "تمريرة الشبكة السلكية للساعة نفسها على خلفية رمادية مسطّحة."
+    ],
+    "video": "assets/vid/dive-watch.mp4",
+    "source": "watch/SCENE20001-0250.mp4"
+  },
+  {
+    "slug": "skincare-jar",
+    "title": "Skincare Jar",
+    "subject": "Cosmetics, two colourways",
+    "year": "2026",
+    "blurb": "A studio still-life problem: two stacked jars in one colourway, a bottle set in a second, and shadow that has to do the modelling.",
+    "note": "Produced as a lighting study against a flat backdrop, with the material response matched across the set.",
+    "credit": "Unsolicited practice work. No brand has commissioned, supplied or endorsed this piece.",
+    "title_ar": "مرطبان العناية بالبشرة",
+    "subject_ar": "مستحضرات تجميل، توليفتان لونيتان",
+    "blurb_ar": "مسألة طبيعة صامتة في الاستوديو: مرطبانان متراكبان بتوليفة لونية، وطقم زجاجة في توليفة ثانية، وظلّ عليه أن يقوم بالنمذجة.",
+    "note_ar": "أُنتج كدراسة إضاءة على خلفية مسطّحة، مع مطابقة استجابة الخامات عبر الطقم.",
+    "credit_ar": "عمل تدريبي غير مُكلَّف به. لم تكلّفه أي علامة تجارية بإعداده، ولم تزوّده، ولم تصادق عليه.",
+    "images": [
+      "shared assets/products/1.png",
+      "shared assets/products/3.png"
+    ],
+    "alts": [
+      "Two stacked cosmetic jars in green on a green field, the lid open, with a soft cast shadow.",
+      "A bottle-and-jar set in blue on a blue field, pump and cap reading against the background."
+    ],
+    "alts_ar": [
+      "مرطبانا مستحضرات تجميل متراكبان باللون الأخضر على خلفية خضراء، والغطاء مفتوح، مع ظلّ مُلقى ناعم.",
+      "طقم زجاجة ومرطبان بالأزرق على خلفية زرقاء، والمضخة والغطاء واضحان أمام الخلفية."
+    ],
+    "video": null,
+    "source": null
+  },
+  {
+    "slug": "sneaker-study",
+    "title": "Sneaker Study",
+    "subject": "Footwear, three colourways",
+    "year": "2026",
+    "blurb": "One shoe, three backdrops, to see how much a colour field changes the read of the same form.",
+    "note": "Floating silhouette with a contact shadow, lit to keep the upper fabric texture legible.",
+    "credit": "Unsolicited practice work. No brand has commissioned, supplied or endorsed this piece.",
+    "title_ar": "دراسة حذاء رياضي",
+    "subject_ar": "أحذية، ثلاث توليفات لونية",
+    "blurb_ar": "حذاء واحد، ثلاث خلفيات، لمعرفة مقدار ما يغيّره الحقل اللوني في قراءة الشكل نفسه.",
+    "note_ar": "صورة ظلية معلّقة مع ظلّ تلامس، بإضاءة تُبقي نسيج القماش في الوجه العلوي واضحًا.",
+    "credit_ar": "عمل تدريبي غير مُكلَّف به. لم تكلّفه أي علامة تجارية بإعداده، ولم تزوّده، ولم تصادق عليه.",
+    "images": [
+      "shared assets/products/shoe1.png",
+      "shared assets/products/shoe2.png",
+      "shared assets/products/shoe3.png"
+    ],
+    "alts": [
+      "A green and white sneaker floating above a green plinth.",
+      "The same sneaker above a red plinth, seen from the other side.",
+      "The sneaker in a third colourway on an ochre background."
+    ],
+    "alts_ar": [
+      "حذاء رياضي أخضر وأبيض يطفو فوق قاعدة خضراء.",
+      "الحذاء نفسه فوق قاعدة حمراء، من الجهة الأخرى.",
+      "الحذاء بتوليفة لونية ثالثة على خلفية بلون المغرة."
+    ],
+    "video": null,
+    "source": null
+  },
+  {
+    "slug": "cpu-cooler",
+    "title": "CPU Cooler",
+    "subject": "PC hardware, product detail",
+    "year": "2025",
+    "blurb": "Fins, heat pipes and a fan: mostly about controlling specular edges so the stack does not turn to mush.",
+    "note": "Rendered from a reference model with custom materials and lighting; the wireframe pass is included because the topology is what decides the highlights.",
+    "credit": "Unsolicited practice work. No brand has commissioned, supplied or endorsed this piece.",
+    "title_ar": "مبرّد المعالج",
+    "subject_ar": "عتاد حاسوب، تفاصيل المنتج",
+    "blurb_ar": "زعانف وأنابيب حرارية ومروحة: الأمر في الأغلب يتعلّق بالتحكّم في حواف الانعكاس اللامع كي لا يتحوّل الرصّ إلى كتلة مبهمة.",
+    "note_ar": "صُيّر من مجسم مرجعي بخامات وإضاءة مخصّصة؛ وأُدرجت تمريرة الشبكة السلكية لأن بنية الشبكة هي ما يحدّد اللمعات.",
+    "credit_ar": "عمل تدريبي غير مُكلَّف به. لم تكلّفه أي علامة تجارية بإعداده، ولم تزوّده، ولم تصادق عليه.",
+    "images": [
+      "my pc/FAN/pics/6.png",
+      "my pc/FAN/pics/2.png",
+      "my pc/FAN/pics/w1.png"
+    ],
+    "alts": [
+      "A tower CPU cooler in three-quarter view, copper heat pipes visible, on a white background.",
+      "The cooler seen side-on so the fin stack and fan shroud line up.",
+      "Wireframe pass of the cooler on a dark grey background."
+    ],
+    "alts_ar": [
+      "مبرّد معالج برجي بزاوية ثلاثية الأرباع، أنابيب الحرارة النحاسية ظاهرة، على خلفية بيضاء.",
+      "المبرّد من الجانب، حيث يتراصف رصّ الزعانف وهيكل المروحة.",
+      "تمريرة الشبكة السلكية للمبرّد على خلفية رمادية داكنة."
+    ],
+    "video": null,
+    "source": null
+  },
+  {
+    "slug": "rtx-gpu",
+    "title": "RTX Graphics Card",
+    "subject": "PC hardware, shroud and backplate",
+    "year": "2025",
+    "blurb": "A triple-fan card is all edges: the shroud and the backplate sit at the same value, so one placed rim light has to separate them.",
+    "note": "Rendered from a reference model; the clay pass is kept beside the final so the panel breaks stay visible.",
+    "credit": "Depicts an MSI GeForce RTX card. Unsolicited study — MSI and NVIDIA have not commissioned, supplied or endorsed this render.",
+    "title_ar": "بطاقة رسومات RTX",
+    "subject_ar": "عتاد حاسوب، الغلاف والصفيحة الخلفية",
+    "blurb_ar": "بطاقة بثلاث مراوح كلها حواف: الغلاف والصفيحة الخلفية بالقيمة اللونية نفسها، لذا يجب أن يفصلهما ضوء حافة واحد موضوع عن قصد.",
+    "note_ar": "صُيّر من مجسم مرجعي؛ والتمريرة الطينية محفوظة إلى جانب النسخة النهائية كي تبقى فواصل الألواح ظاهرة.",
+    "credit_ar": "يُصوّر هذا العمل بطاقة MSI GeForce RTX. دراسة غير مُكلَّف بها؛ لم تكلّف MSI وNVIDIA بإعدادها، ولم تزوّدها، ولم تصادق عليها.",
+    "images": [
+      "shared assets/my pc/gpu textures/R.png",
+      "shared assets/my pc/gpu textures/Untitled.png",
+      "shared assets/my pc/gpu textures/235.png"
+    ],
+    "alts": [
+      "A triple-fan graphics card seen front-on, the fan hubs catching a rim light.",
+      "The card from behind, the backplate and its cut-outs reading flat.",
+      "Clay pass of the card on a black field."
+    ],
+    "alts_ar": [
+      "بطاقة رسومات بثلاث مراوح من الأمام، ومراكز المراوح تلتقط ضوء الحافة.",
+      "البطاقة من الخلف، والصفيحة الخلفية وفتحاتها تبدو مسطّحة.",
+      "التمريرة الطينية للبطاقة على خلفية سوداء."
+    ],
+    "video": null,
+    "source": null
+  },
+  {
+    "slug": "desk-monitor",
+    "title": "Desk Monitor",
+    "subject": "Display, studio lighting",
+    "year": "2025",
+    "blurb": "A black object on a light field, which only works if the panel's edge is placed deliberately.",
+    "note": "Rendered so the only thing separating the rear housing from the backdrop is one edge of light.",
+    "credit": "Depicts a BenQ monitor. An unsolicited study — no endorsement is implied.",
+    "title_ar": "شاشة مكتب",
+    "subject_ar": "شاشة، إضاءة استوديو",
+    "blurb_ar": "جسم أسود على خلفية فاتحة، ولا ينجح ذلك إلا إذا وُضعت حافة اللوح عن قصد.",
+    "note_ar": "صُيّر بحيث لا يفصل الهيكل الخلفي عن الخلفية سوى حافة ضوء واحدة.",
+    "credit_ar": "يُصوّر هذا العمل شاشة BenQ. دراسة غير مُكلَّف بها؛ ولا يُفهم منها أي مصادقة.",
+    "images": [
+      "shared assets/my pc/monitor/5.png",
+      "shared assets/my pc/monitor/2.png",
+      "shared assets/my pc/monitor/6.png"
+    ],
+    "alts": [
+      "The rear of a slim monitor on a pale grey ground, its edge catching a rim light.",
+      "The monitor seen from the front, its bezel outlined by a soft gradient behind it.",
+      "Wireframe pass of the monitor over a dark background."
+    ],
+    "alts_ar": [
+      "ظهر شاشة نحيفة على أرضية رمادية فاتحة، وحافتها تلتقط ضوء الحافة.",
+      "الشاشة من الأمام، وإطارها محدّد بتدرّج ناعم خلفها.",
+      "تمريرة الشبكة السلكية للشاشة على خلفية داكنة."
+    ],
+    "video": null,
+    "source": null
+  },
+  {
+    "slug": "perfume-bottle",
+    "title": "Perfume Bottle",
+    "subject": "Fragrance, dark studio",
+    "year": "2025",
+    "blurb": "Glass is a transmission problem before it is a material problem. The interior light has to exist or the bottle reads as plastic.",
+    "note": "Lit with an internal source so the liquid glows through the glass rather than being faked in post.",
+    "credit": "Unsolicited practice work. No brand has commissioned, supplied or endorsed this piece.",
+    "title_ar": "قارورة عطر",
+    "subject_ar": "عطر، استوديو داكن",
+    "blurb_ar": "الزجاج مشكلة نفاذ قبل أن يكون مشكلة خامة. ويجب أن يوجد الضوء الداخلي وإلا بدت القارورة بلاستيكية.",
+    "note_ar": "أُضيئت بمصدر داخلي كي يتوهّج السائل عبر الزجاج بدل تزييفه في المعالجة اللاحقة.",
+    "credit_ar": "عمل تدريبي غير مُكلَّف به. لم تكلّفه أي علامة تجارية بإعداده، ولم تزوّده، ولم تصادق عليه.",
+    "images": [
+      "shared assets/perfume/3.png",
+      "shared assets/perfume/perfume.png"
+    ],
+    "alts": [
+      "A square glass perfume bottle glowing from within against near black.",
+      "A blue glass bottle standing on a reflective surface at night."
+    ],
+    "alts_ar": [
+      "قارورة عطر زجاجية مربعة تتوهّج من الداخل على خلفية شبه سوداء.",
+      "قارورة زجاجية زرقاء تقف على سطح عاكس في الليل."
+    ],
+    "video": null,
+    "source": null
+  },
+  {
+    "slug": "over-ear-headphones",
+    "title": "Over-Ear Headphones",
+    "subject": "Audio, fabric and plastic",
+    "year": "2025",
+    "blurb": "Fabric, rubber and moulded plastic in one object. Keeping the three surfaces distinct was the point.",
+    "note": "A warm, low-key grade, deliberately different from the rest of the set and left that way rather than forced into line.",
+    "credit": "Depicts Sony over-ear headphones. An unsolicited study — Sony has not commissioned, supplied or endorsed this render.",
+    "title_ar": "سماعات رأس تغطي الأذن",
+    "subject_ar": "صوتيات، قماش وبلاستيك",
+    "blurb_ar": "قماش ومطاط وبلاستيك مصبوب في جسم واحد. والحفاظ على تمييز الأسطح الثلاثة كان هو المقصود.",
+    "note_ar": "تدريج لوني دافئ وقاتم، مختلف عن بقية المجموعة عن قصد، وتُرك كذلك بدل أن يُجبر على مجاراتها.",
+    "credit_ar": "يُصوّر هذا العمل سماعات رأس من Sony. دراسة غير مُكلَّف بها؛ لم تكلّف Sony بإعدادها، ولم تزوّدها، ولم تصادق عليها.",
+    "images": [
+      "headphone/pics/2.png",
+      "headphone/pics/1.png",
+      "headphone/pics/3.png"
+    ],
+    "alts": [
+      "Dark over-ear headphones lit against a warm brown backdrop.",
+      "The headphones seen square-on, ear cups catching a soft key.",
+      "The headphones from behind, the headband arcing across the frame."
+    ],
+    "alts_ar": [
+      "سماعات رأس داكنة مضاءة على خلفية بنية دافئة.",
+      "السماعات من الأمام مباشرة، وكؤوس الأذن تلتقط ضوءًا رئيسيًا ناعمًا.",
+      "السماعات من الخلف، وشريط الرأس يقوس عبر الإطار."
+    ],
+    "video": null,
+    "source": null
+  },
+  {
+    "slug": "beef-force",
+    "title": "Beef Force",
+    "subject": "Food advertising, trailer styling",
+    "year": "2026",
+    "blurb": "A moving piece rather than a still. The same product logic, cut to a trailer rhythm and graded flat and grainy so a rendered burger reads like a photograph somebody took.",
+    "note": "Frame-numbered out of the scene, then cut, with the price tags and the camera overlays drawn on afterwards. The conceit is a security camera that keeps zooming into a burger it cannot believe.",
+    "credit": "A self-directed style study in the manner of a game trailer. It depicts a burger and a cola cup; the brands shown have not commissioned, supplied or endorsed it.",
+    "title_ar": "Beef Force",
+    "subject_ar": "إعلان طعام، نمط المقاطع التشويقية",
+    "blurb_ar": "قطعة متحركة لا صورة ثابتة. المنطق نفسه لمنتج، لكن مونتاج على إيقاع إعلان تشويقي، ودُرِّج لونيًا بمظهر باهت ومحبَّب بالحبيبات حتى يبدو البرغر المصيّر كصورة التقطها أحدهم.",
+    "note_ar": "مُرقَّم إطارًا بإطار من المشهد، ثم مونتاج، مع رسم بطاقات السعر وطبقات الكاميرا بعده. والحيلة أن كاميرا مراقبة تستمر في التقريب على برغر لا تصدّقه.",
+    "credit_ar": "دراسة نمط ذاتية على طريقة إعلان لعبة تشويقي. تُصوّر برغر وكوب كولا؛ ولم تكلّف العلامات الظاهرة بإعدادها، ولم تزوّدها، ولم تصادق عليها.",
+    "images": [
+      "gta 5 style ads/burger/BEEF FORCE Industrial Burger Brand Board.png"
+    ],
+    "alts": [
+      "The Beef Force brand board: the bull mark, the menu boards and the packaging."
+    ],
+    "alts_ar": [
+      "لوحة علامة Beef Force: رمز الثور، ولوحات القائمة، والعبوات."
+    ],
+    "video": "assets/vid/beef-force.mp4",
+    "source": "gta 5 style ads/burger/burger beta 2.mp4"
+  },
+  {
+    "slug": "kia-sephia",
+    "title": "Kia Sephia",
+    "subject": "Sedan, panel and paint",
+    "year": "2025",
+    "blurb": "A four-door built from reference and shown two ways: a front wireframe so the panel flow is visible, and one finished frame.",
+    "note": "The wireframe is kept beside the finished pass because the surface breaks decide where the highlights land.",
+    "credit": "Unsolicited study — Kia has not commissioned or endorsed this render.",
+    "title_ar": "Kia Sephia",
+    "subject_ar": "سيدان، لوح الهيكل والطلاء",
+    "blurb_ar": "سيارة بأربعة أبواب مبنية من مرجع ومعروضة بطريقتين: شبكة سلكية أمامية ليظهر انسياب ألواح الهيكل، وإطار واحد منتهٍ.",
+    "note_ar": "الشبكة السلكية موضوعة إلى جانب التمريرة المنتهية لأن انكسارات السطح تحدّد أين تقع اللمعات.",
+    "credit_ar": "دراسة غير مُكلَّف بها؛ لم تكلّف Kia بإعدادها ولم تصادق عليها.",
+    "images": [
+      "shared assets/kia sephia/untitled2.png",
+      "shared assets/kia sephia/untitled3.png"
+    ],
+    "alts": [
+      "Front three-quarter wireframe of the Sephia on a dark grey ground.",
+      "A cream Kia Sephia seen head-on, the badge on the grille."
+    ],
+    "alts_ar": [
+      "شبكة سلكية أمامية لسيارة Sephia على أرضية رمادية داكنة.",
+      "Kia Sephia بلون كريمي من الأمام مباشرة، والشعار على الشبك الأمامي."
+    ],
+    "video": null,
+    "source": null
+  },
+  {
+    "slug": "dodge-charger",
+    "title": "Dodge Charger",
+    "subject": "Muscle car, studio still",
+    "year": "2025",
+    "blurb": "A long flat flank is the hard part: one sweep of key light has to keep the body side from going dead without washing out the grille.",
+    "note": "Modelled from a reference blueprint; the paint, the ground and the grade are the work.",
+    "credit": "Unsolicited study — Dodge has not commissioned or endorsed this render.",
+    "title_ar": "Dodge Charger",
+    "subject_ar": "سيارة عضلات، صورة ثابتة في الاستوديو",
+    "blurb_ar": "الجانب الطويل المستوي هو الجزء الصعب: على مسحة واحدة من الضوء الرئيسي أن تمنع جانب هيكل السيارة من أن يبهت دون أن تطمس الشبك الأمامي.",
+    "note_ar": "مصنوعة بالنمذجة من مخطط مرجعي؛ والعمل هو الطلاء والأرضية والتدريج اللوني.",
+    "credit_ar": "دراسة غير مُكلَّف بها؛ لم تكلّف Dodge بإعدادها ولم تصادق عليها.",
+    "images": [
+      "shared assets/cars/untitled.png"
+    ],
+    "alts": [
+      "A green 1969 Dodge Charger in three-quarter view on a tan studio floor."
+    ],
+    "alts_ar": [
+      "Dodge Charger موديل 1969 بلون أخضر من زاوية ثلاثة أرباع على أرضية استوديو بنية فاتحة."
+    ],
+    "video": null,
+    "source": null
+  },
+  {
+    "slug": "lamborghini-murcielago",
+    "title": "Lamborghini Murcielago",
+    "subject": "Sports car, mesh and paint",
+    "year": "2025",
+    "blurb": "A downloaded base mesh worked into two reads: a wireframe of the body and one daylight frame of the finished paint.",
+    "note": "Rendered from a downloaded base mesh; the materials, colour grade and setting are the work.",
+    "credit": "Base mesh downloaded. Depicts a Lamborghini Murcielago; unsolicited — the brand has not commissioned or endorsed this render.",
+    "title_ar": "Lamborghini Murcielago",
+    "subject_ar": "سيارة رياضية، المجسم والطلاء",
+    "blurb_ar": "مجسم أساسي مُنزَّل جرى العمل عليه حتى صار قراءتين: شبكة سلكية لهيكل السيارة، وإطار واحد بضوء النهار للطلاء المنتهي.",
+    "note_ar": "مُصيَّرة من مجسم أساسي مُنزَّل؛ والعمل هو الخامات والتدريج اللوني والمشهد.",
+    "credit_ar": "مجسم أساسي مُنزَّل. يُصوّر هذا العمل Lamborghini Murcielago؛ دراسة غير مُكلَّف بها، ولم تكلّف العلامة بإعدادها ولم تصادق عليها.",
+    "images": [
+      "shared assets/lamborgini/untitled1.png",
+      "shared assets/lamborgini/untitled2.png"
+    ],
+    "alts": [
+      "A viewport wireframe of the Murcielago body on a dark grey ground.",
+      "A gold Murcielago from the rear three-quarter, parked on a country road in daylight."
+    ],
+    "alts_ar": [
+      "شبكة سلكية في نافذة العرض لهيكل Murcielago على أرضية رمادية داكنة.",
+      "Murcielago بلون ذهبي من الخلف بزاوية ثلاثة أرباع، متوقّفة على طريق ريفي في ضوء النهار."
+    ],
+    "video": null,
+    "source": null
+  },
+  {
+    "slug": "laferrari",
+    "title": "LaFerrari",
+    "subject": "Hypercar, studio grade",
+    "year": "2025",
+    "blurb": "A red hypercar under one key light: the front fender and the tail are two different surfaces and both have to read in one grade.",
+    "note": "Rendered as a short turntable; the stills are graded frames pulled from that film.",
+    "credit": "Unsolicited study — Ferrari has not commissioned or endorsed this render.",
+    "title_ar": "LaFerrari",
+    "subject_ar": "سيارة خارقة، تدريج لوني في الاستوديو",
+    "blurb_ar": "سيارة خارقة حمراء تحت ضوء رئيسي واحد: الرفرف الأمامي والمؤخرة سطحان مختلفان، وكلاهما يجب أن يُقرأ في تدريج لوني واحد.",
+    "note_ar": "صُيِّرت كمشهد دوّار قصير؛ والصور الثابتة إطارات مُدرَّجة لونيًا مقتطعة من ذلك الفيلم.",
+    "credit_ar": "دراسة غير مُكلَّف بها؛ لم تكلّف Ferrari بإعدادها ولم تصادق عليها.",
+    "images": [
+      "shared assets/cars/laferrari/laferrari - frame at 0m14s.jpg",
+      "shared assets/cars/laferrari/laferrari - frame at 0m17s.jpg",
+      "shared assets/cars/laferrari/laferrari - frame at 0m11s.jpg"
+    ],
+    "alts": [
+      "A red LaFerrari from the rear three-quarter, tail lamps lit, on a grey floor.",
+      "A tight front three-quarter, the headlight and bonnet edge filling the frame.",
+      "A head-on front view of the car in a dark studio."
+    ],
+    "alts_ar": [
+      "LaFerrari حمراء من الخلف بزاوية ثلاثة أرباع، مصابيح المؤخرة مضاءة، على أرضية رمادية.",
+      "لقطة قريبة من الأمام بزاوية ثلاثة أرباع، المصباح الأمامي وحافة غطاء المحرك يملآن الإطار.",
+      "منظر أمامي مباشر للسيارة في استوديو داكن."
+    ],
+    "video": null,
+    "source": null
+  },
+  {
+    "slug": "poco-x3-pro",
+    "title": "Poco X3 Pro",
+    "subject": "Smartphone, product still",
+    "year": "2025",
+    "blurb": "A handset lit to keep the glass edge legible without a glow.",
+    "note": "A stress test for a thin chamfered object: one key light and a soft fill, nothing else.",
+    "credit": "Unsolicited study — Poco has not commissioned or endorsed this render.",
+    "title_ar": "Poco X3 Pro",
+    "subject_ar": "هاتف ذكي، صورة منتج ثابتة",
+    "blurb_ar": "هاتف مُضاء بحيث يبقى حرف الزجاج واضحًا دون توهّج.",
+    "note_ar": "اختبار ضغط لجسم رفيع بحافة مشطوفة: ضوء رئيسي واحد وضوء مكمّل ناعم، لا شيء آخر.",
+    "credit_ar": "دراسة غير مُكلَّف بها؛ لم تكلّف Poco بإعدادها ولم تصادق عليها.",
+    "images": [
+      "poco x3 pro/photos/2.png"
+    ],
+    "alts": [
+      "The handset lying flat, seen from a low rear angle on a white ground."
+    ],
+    "alts_ar": [
+      "الهاتف مستلقٍ مسطّحًا، منظور من زاوية خلفية منخفضة على أرضية بيضاء."
+    ],
+    "video": null,
+    "source": null
+  },
+  {
+    "slug": "3mo-fresh",
+    "title": "3mo Fresh",
+    "subject": "Beverage, logo animation",
+    "year": "2026",
+    "blurb": "A soft-drink concept where the mascot mark is the subject: the cup stays translucent so the artwork reads on the surface.",
+    "note": "Rendered as a logo animation; these are graded frames pulled from that film.",
+    "credit": "Self-directed concept animation.",
+    "title_ar": "3mo Fresh",
+    "subject_ar": "مشروب، تحريك الشعار",
+    "blurb_ar": "تصوّر لمشروب غازي يكون فيه شعار الشخصية هو الموضوع: يبقى الكوب شبه شفاف لتُقرأ الرسمة على السطح.",
+    "note_ar": "صُيّر كتحريك شعار؛ وهذه إطارات مُدرّجة لونيًا مقتطعة من ذلك الفيلم.",
+    "credit_ar": "تحريك تصوّري ذاتي.",
+    "images": [
+      "shared assets/3mo fresh/3mo fresh - frame at 0m7s.jpg",
+      "shared assets/3mo fresh/3mo fresh - frame at 0m11s.jpg"
+    ],
+    "alts": [
+      "A translucent cup with a mascot logo on a wooden coaster against an amber field.",
+      "The same cup against a green field, the mark raised above it."
+    ],
+    "alts_ar": [
+      "كوب شبه شفاف يحمل شعار الشخصية على قاعدة خشبية أمام خلفية كهرمانية.",
+      "الكوب نفسه أمام خلفية خضراء، والشعار مرفوع فوقه."
+    ],
+    "video": null,
+    "source": null
+  },
+  {
+    "slug": "ysl-axis",
+    "title": "YSL Libre",
+    "subject": "Fragrance, packaging study",
+    "year": "2026",
+    "blurb": "One frame of a fragrance carton, standing so the monogram and the type read at once against a plain ground.",
+    "note": "A packaging study: the carton is lit to hold the black-and-white block without a hotspot.",
+    "credit": "Depicts YSL packaging. Unsolicited; the brand has not endorsed this.",
+    "title_ar": "YSL Libre",
+    "subject_ar": "عطر، دراسة تغليف",
+    "blurb_ar": "إطار واحد لعلبة كرتون عطر، واقفة بحيث يُقرأ المونوغرام والنص معًا على أرضية سادة.",
+    "note_ar": "دراسة تغليف: العلبة مُضاءة لتُظهر الكتلة بالأبيض والأسود دون نقطة سطوع.",
+    "credit_ar": "يُصوّر هذا العمل تغليف YSL. دراسة غير مُكلَّف بها؛ ولم تصادق العلامة عليها.",
+    "images": [
+      "shared assets/perfume/ysl/ysl-image.png"
+    ],
+    "alts": [
+      "The Yves Saint Laurent Libre carton standing on a white ground, the monogram across the front."
+    ],
+    "alts_ar": [
+      "علبة كرتون Yves Saint Laurent Libre واقفة على أرضية بيضاء، والمونوغرام على الوجه الأمامي."
+    ],
+    "video": null,
+    "source": null
+  },
+  {
+    "slug": "classroom",
+    "title": "Classroom",
+    "subject": "Interior, classroom render",
+    "year": "2026",
+    "blurb": "A room rebuilt to match a photographed classroom: flat daylight, grilled windows and worn tile, with nothing allowed to go glossy.",
+    "note": "Furniture and fittings modelled from reference; framed to show the room rather than the render.",
+    "credit": "Self-directed composition — the scene depicts no owned brand.",
+    "title_ar": "الصف الدراسي",
+    "subject_ar": "تصميم داخلي، صف دراسي",
+    "blurb_ar": "غرفة أُعيد بناؤها لتطابق صفًّا دراسيًا مصوَّرًا: ضوء نهار مسطّح، ونوافذ بشبك معدني، وبلاط مهترئ، دون السماح لأي شيء بأن يصبح لامعًا.",
+    "note_ar": "الأثاث والتجهيزات نُمذجت من مرجع؛ والتكوين مُؤطَّر لإظهار الغرفة لا التصيير.",
+    "credit_ar": "تكوين ذاتي — لا يظهر في المشهد أي علامة تجارية مملوكة.",
+    "images": [
+      "shared assets/room design/room2.png",
+      "shared assets/room design/room3.png",
+      "shared assets/room design/room.png"
+    ],
+    "alts": [
+      "A classroom with rows of desks, a chalkboard and a teacher's desk in flat daylight.",
+      "The same room seen wide, grilled windows along one wall.",
+      "The decorated wall at the back of the classroom, the lettering reading across it."
+    ],
+    "alts_ar": [
+      "صف دراسي بصفوف من المقاعد، وسبورة، ومكتب معلّم في ضوء نهار مسطّح.",
+      "الغرفة نفسها بمنظر واسع، ونوافذ بشبك معدني على أحد الجدران.",
+      "الجدار المزيَّن في مؤخرة الصف الدراسي، والكتابة تمتد عليه."
+    ],
+    "video": null,
+    "source": null
+  },
+  {
+    "slug": "vr-lab",
+    "title": "VR Lab",
+    "subject": "VR headset, environment views",
+    "year": "2026",
+    "blurb": "A pair of environment scenes built for a headset: each frame is the two lens views, so the composition has to hold right out to the edges.",
+    "note": "Smooth geometry lit with one global source per scene, so the read is the shape and not the material.",
+    "credit": "Self-directed composition — the scene depicts no owned brand.",
+    "title_ar": "مختبر الواقع الافتراضي",
+    "subject_ar": "نظارة الواقع الافتراضي، مناظر بيئية",
+    "blurb_ar": "مشهدا بيئة بُنيَا لنظارة: كل إطار هو منظرا العدستين، لذا على التكوين أن يصمد حتى الأطراف.",
+    "note_ar": "مجسمات ناعمة مُضاءة بمصدر عام واحد لكل مشهد، بحيث يكون المقروء هو الشكل لا الخامة.",
+    "credit_ar": "تكوين ذاتي — لا يظهر في المشهد أي علامة تجارية مملوكة.",
+    "images": [
+      "shared assets/vr/test.png",
+      "shared assets/vr/test1.png"
+    ],
+    "alts": [
+      "A VR courtyard with buildings, trees and a paved path, seen through the headset lenses.",
+      "A VR workshop interior seen through the headset lenses."
+    ],
+    "alts_ar": [
+      "فناء واقع افتراضي فيه مبانٍ وأشجار وممر مُعبَّد، منظور من خلال عدستَي النظارة.",
+      "داخل ورشة في الواقع الافتراضي منظور من خلال عدستَي النظارة."
+    ],
+    "video": null,
+    "source": null
+  },
+  {
+    "slug": "watch-macro",
+    "title": "Watch Study",
+    "subject": "Wristwatch, macro and lighting",
+    "year": "2025",
+    "blurb": "A second watch exercise, lit to read the dial texture and the bracelet finish at once.",
+    "note": "Same case as the dive watch, different set of angles on a white ground and one longer grade pass.",
+    "credit": "Depicts a Grand Seiko diver. Unsolicited — Grand Seiko has not commissioned or endorsed this render.",
+    "title_ar": "دراسة ساعة",
+    "subject_ar": "ساعة يد، لقطة قريبة وإضاءة",
+    "blurb_ar": "تمرين ثانٍ على ساعة، أُضيء ليُقرأ ملمس الميناء وتشطيب السوار في الوقت نفسه.",
+    "note_ar": "نفس علبة ساعة الغوص، وزوايا مختلفة على أرضية بيضاء، وتمريرة تدريج لوني أطول.",
+    "credit_ar": "يُصوّر هذا العمل ساعة غوص من Grand Seiko. دراسة غير مُكلَّف بها؛ لم تكلّف Grand Seiko بإعدادها ولم تصادق عليها.",
+    "images": [
+      "watch/pic/4.png",
+      "watch/pic/5.png"
+    ],
+    "alts": [
+      "A Grand Seiko diver on a white ground, the dial texture reading across the frame.",
+      "The same watch in side profile, the bracelet links stacking out of frame."
+    ],
+    "alts_ar": [
+      "ساعة غوص من Grand Seiko على أرضية بيضاء، وملمس الميناء واضح عبر الإطار.",
+      "الساعة نفسها بمنظر جانبي، ووصلات السوار تتراكم خارج الإطار."
+    ],
+    "video": null,
+    "source": null
+  },
+  {
+    "slug": "pickup-truck",
+    "title": "Chevrolet Pickup",
+    "subject": "Pickup truck, exterior",
+    "year": "2025",
+    "blurb": "A black pickup in a wooded clearing: the paint, the chrome and the canopy each need their own value so the truck does not flatten into one dark shape.",
+    "note": "One finished frame with its clay pass kept together.",
+    "credit": "Depicts a Chevrolet pickup. Unsolicited — Chevrolet has not commissioned or endorsed this render.",
+    "title_ar": "Chevrolet Pickup",
+    "subject_ar": "بيك آب، منظر خارجي",
+    "blurb_ar": "بيك آب أسود في فسحة بين الأشجار: الطلاء والكروم والمظلّة الخلفية يحتاج كل منها إلى قيمته اللونية الخاصة حتى لا يتسطّح البيك آب في شكل داكن واحد.",
+    "note_ar": "إطار منتهٍ واحد، ويُعرض معه تمريرته الطينية.",
+    "credit_ar": "يُصوّر هذا العمل بيك آب من Chevrolet. دراسة غير مُكلَّف بها؛ لم تكلّف Chevrolet بإعدادها ولم تصادق عليها.",
+    "images": [
+      "shared assets/aws/render1.png",
+      "shared assets/aws/render2.png"
+    ],
+    "alts": [
+      "A black Chevrolet pickup parked in a wooded clearing beside a canvas shelter.",
+      "A material-ID pass of the same truck and clearing, the foliage blocked in flat colour."
+    ],
+    "alts_ar": [
+      "بيك آب Chevrolet أسود متوقّف في فسحة بين الأشجار بجانب مظلّة قماشية.",
+      "تمريرة معرّفات الخامات للبيك آب والفسحة نفسيهما، وأوراق الشجر محجوبة بلون مسطّح."
+    ],
+    "video": null,
+    "source": null
+  },
+  {
+    "slug": "petra-set",
+    "title": "Petra Set",
+    "subject": "Set and prop, mythic subject",
+    "year": "2025",
+    "blurb": "A carved rock facade lit twice: once in flat desert daylight and once at night, where the light does all the work.",
+    "note": "Built with the same lighting grammar as the product work.",
+    "credit": "Self-directed lighting study.",
+    "title_ar": "مشهد البتراء",
+    "subject_ar": "مشهد ومجسم، موضوع أسطوري",
+    "blurb_ar": "واجهة صخرية منحوتة أُضيئت مرتين: مرة في ضوء نهار صحراوي مسطّح، ومرة في الليل حيث يقوم الضوء بالعمل كله.",
+    "note_ar": "بُنيت بقواعد الإضاءة نفسها المستخدمة في أعمال المنتجات.",
+    "credit_ar": "دراسة إضاءة ذاتية.",
+    "images": [
+      "shared assets/petra/2.png",
+      "shared assets/petra/untitled.png",
+      "shared assets/petra/1.png"
+    ],
+    "alts": [
+      "The Treasury facade at night, lit from below, framed by the canyon.",
+      "The same carved facade in daylight, seen wide across the sand.",
+      "The facade straight-on in daylight, low shrubs across the floor."
+    ],
+    "alts_ar": [
+      "واجهة الخزنة في الليل، مضاءة من الأسفل، ويؤطّرها الوادي الضيق.",
+      "الواجهة المنحوتة نفسها في ضوء النهار، بلقطة واسعة عبر الرمل.",
+      "الواجهة من الأمام مباشرة في ضوء النهار، وشجيرات منخفضة على طول الأرضية."
+    ],
+    "video": null,
+    "source": null
+  },
+  {
+    "slug": "calculator",
+    "title": "Calculator",
+    "subject": "Device, clay pass",
+    "year": "2025",
+    "blurb": "A keypad device kept as a clay pass, to check the form before any material goes on.",
+    "note": "Two angles of the same clay pass on one terracotta ground.",
+    "credit": "Unsolicited study.",
+    "title_ar": "آلة حاسبة",
+    "subject_ar": "جهاز، التمريرة الطينية",
+    "blurb_ar": "جهاز بأزرار تُرك بلا خامات، للتحقّق من الشكل قبل إضافة أي سطح.",
+    "note_ar": "زاويتان للتمريرة نفسها بلا خامات على أرضية من الطين المحروق.",
+    "credit_ar": "دراسة غير مُكلَّف بها.",
+    "images": [
+      "shared assets/calculator/Untitled.png",
+      "shared assets/calculator/Untitled1.png"
+    ],
+    "alts": [
+      "Clay pass of a keypad device on a terracotta ground.",
+      "The rear of the same device in clay pass on the same ground."
+    ],
+    "alts_ar": [
+      "تمريرة بلا خامات لجهاز بأزرار على أرضية من الطين المحروق.",
+      "الجزء الخلفي من الجهاز نفسه بلا خامات على الأرضية نفسها."
+    ],
+    "video": null,
+    "source": null
+  },
+  {
+    "slug": "vw-beetle",
+    "title": "Volkswagen Beetle",
+    "subject": "Classic car, clay and topology",
+    "year": "2025",
+    "blurb": "A shape with almost no straight line: the fenders and the roof arc are read entirely by how the light rolls across them.",
+    "note": "Clay pass with the side and front wireframes kept beside it, so the topology behind the highlights stays visible.",
+    "credit": "Unsolicited study — Volkswagen has not commissioned or endorsed this render.",
+    "title_ar": "Volkswagen Beetle",
+    "subject_ar": "سيارة كلاسيكية، بلا خامات وبنية الشبكة",
+    "blurb_ar": "شكل لا يكاد يحتوي على أي خط مستقيم: الرفارف وقوس السقف تُقرأ بالكامل من طريقة انزلاق الضوء عليها.",
+    "note_ar": "التمريرة الطينية مع الاحتفاظ بالشبكتين السلكيتين الجانبية والأمامية إلى جانبها، لتبقى بنية الشبكة خلف اللمعات ظاهرة.",
+    "credit_ar": "دراسة غير مُكلَّف بها؛ لم تكلّف Volkswagen بإعدادها ولم تصادق عليها.",
+    "images": [
+      "shared assets/cars/vw/e.png",
+      "shared assets/cars/vw/1.png",
+      "shared assets/cars/vw/2.png"
+    ],
+    "alts": [
+      "A white clay Volkswagen Beetle in three-quarter view on a dark ground.",
+      "Side wireframe of the same Beetle on a dark field.",
+      "Front wireframe of the Beetle, the fenders and lamps reading as mesh."
+    ],
+    "alts_ar": [
+      "سيارة Volkswagen Beetle بلا خامات، باللون الأبيض، بمنظر ثلاثي الأرباع على أرضية داكنة.",
+      "الشبكة السلكية الجانبية للسيارة نفسها على خلفية داكنة.",
+      "الشبكة السلكية الأمامية لسيارة Beetle، والرفارف والمصابيح تُقرأ كشبكة."
+    ],
+    "video": null,
+    "source": null
+  },
+  {
+    "slug": "aston-db9",
+    "title": "Aston Martin DB9",
+    "subject": "Automotive, material and light",
+    "year": "2025",
+    "blurb": "Body panel is the surface: one sweep of light has to read the shoulder line without flattening the flanks.",
+    "note": "Clay, solid and wireframe passes kept beside the final frame so the panel breaks stay visible.",
+    "credit": "Depicts an Aston Martin DB9. An unsolicited study — Aston Martin has not commissioned, supplied or endorsed this render.",
+    "title_ar": "Aston Martin DB9",
+    "subject_ar": "سيارات، الخامات والإضاءة",
+    "blurb_ar": "لوح الهيكل هو السطح: مسحة واحدة من الضوء عليها أن تُبرز خط الكتف من دون أن تُسطّح الجوانب.",
+    "note_ar": "الاحتفاظ بتمريرة بلا خامات، وتمريرة صلبة، وتمريرة سلكية إلى جانب الإطار النهائي، لتبقى فواصل الألواح ظاهرة.",
+    "credit_ar": "يُصوّر هذا العمل Aston Martin DB9. دراسة غير مُكلَّف بها؛ لم تكلّف Aston Martin بإعدادها، ولم تزوّدها، ولم تصادق عليها.",
+    "images": [
+      "shared assets/cars/db9/poster.png",
+      "shared assets/cars/db9/poster2solid.png",
+      "shared assets/cars/db9/poster2wireframe.png",
+      "shared assets/cars/db9/poster4.png"
+    ],
+    "alts": [
+      "A grand tourer in three-quarter view, a blue flame graphic behind it and a reflection under it.",
+      "A rear three-quarter material-ID pass, the panels blocked in flat colours.",
+      "A wireframe pass of the body shell, the viewport guides still switched on.",
+      "A straight-on front view, lit from above, the blue flame graphic behind."
+    ],
+    "alts_ar": [
+      "سيارة سياحية فارهة بمنظر ثلاثي الأرباع، وخلفها رسم لهب أزرق وتحتها انعكاس.",
+      "تمريرة معرّفات الخامات من الخلف بزاوية ثلاثية الأرباع، والألواح مُعبّأة بألوان مسطّحة.",
+      "تمريرة سلكية لهيكل السيارة، مع خطوط إطار العرض ما زالت مُفعّلة.",
+      "منظر أمامي مباشر، مُضاء من الأعلى، وخلفه رسم لهب أزرق."
+    ],
+    "video": null,
+    "source": null
+  },
+  {
+    "slug": "mechanical-keyboard",
+    "title": "Mechanical Keyboard",
+    "subject": "Input device, RGB lighting",
+    "year": "2025",
+    "blurb": "A full-size RGB board: keeping per-key lighting from dissolving the silhouette.",
+    "note": "One practical light against a dark keyset; the grade keeps the key legends readable.",
+    "credit": "Unsolicited study. Not affiliated with, or endorsed by, any keyboard brand.",
+    "title_ar": "لوحة مفاتيح ميكانيكية",
+    "subject_ar": "جهاز إدخال، إضاءة RGB",
+    "blurb_ar": "لوحة RGB بالحجم الكامل: منع إضاءة كل مفتاح من أن تذيبه في الظل الخارجي.",
+    "note_ar": "ضوء عملي واحد مقابل طقم مفاتيح داكن. والتدريج اللوني يحافظ على بقاء الكتابة على المفاتيح واضحة.",
+    "credit_ar": "دراسة غير مُكلَّف بها. لا ارتباط بأي علامة لوحات مفاتيح ولا مصادقة منها.",
+    "images": [
+      "my pc/keyboard/pics/3.png",
+      "my pc/keyboard/pics/1.png",
+      "my pc/keyboard/pics/2.png"
+    ],
+    "alts": [
+      "A full-size mechanical keyboard in three-quarter view on a plain light ground.",
+      "The same board seen from a high angle, the case filling the frame.",
+      "A straight-on front view with the key rows reading across."
+    ],
+    "alts_ar": [
+      "لوحة مفاتيح ميكانيكية بالحجم الكامل بمنظر ثلاثي الأرباع على أرضية فاتحة بسيطة.",
+      "اللوحة نفسها من زاوية مرتفعة، والهيكل يملأ الإطار.",
+      "منظر أمامي مباشر مع صفوف المفاتيح تمتد عبر الإطار."
+    ],
+    "video": null,
+    "source": null
+  }
+]

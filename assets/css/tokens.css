@@ -1,0 +1,87 @@
+/* Generated from 02_Colour/tokens.json by _v2/08_web.py.
+   Do not edit: change the tokens and rebuild. */
+
+:root {
+  --color-ink: #070A07;
+  --color-raised: #0E120D;
+  --color-line: #1B2019;
+  --color-ink300: #272E25;
+  --color-text: #FFFFFF;
+  --color-text600: #A8B09E;
+  --color-text500: #7A8274;
+  --color-paper: #F5F6F1;
+  --color-textPaper: #5F6659;
+  --color-accent: #C5EB0A;
+  --color-accentDeep: #638000;
+  --type-familyDisplay: 'IBM Plex Mono', ui-monospace, monospace;
+  --type-familyBody: 'IBM Plex Sans', system-ui, sans-serif;
+  --type-familyArabic: 'IBM Plex Sans Arabic', 'IBM Plex Sans', sans-serif;
+  --type-display: 112px;
+  --type-display-tracking: -0.03em;
+  --type-h1: 76px;
+  --type-h1-tracking: -0.02em;
+  --type-h2: 49px;
+  --type-h2-tracking: -0.015em;
+  --type-h3: 39px;
+  --type-h3-tracking: -0.01em;
+  --type-h4: 31px;
+  --type-h4-tracking: -0.005em;
+  --type-lead: 25px;
+  --type-lead-tracking: 0.0em;
+  --type-body: 16px;
+  --type-body-tracking: 0.0em;
+  --type-small: 14px;
+  --type-small-tracking: 0.005em;
+  --type-label: 12px;
+  --type-label-tracking: 0.14em;
+  --type-micro: 11px;
+  --type-micro-tracking: 0.1em;
+  --space-unit: 8px;
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 32px;
+  --space-xl: 64px;
+  --space-xxl: 128px;
+  --rule-accentBudget: 5%;
+  --rule-marksPerLayout: 1;
+  --glass-blur: 20px;
+  --glass-sat: 150%;
+  --glass-fill: rgba(255, 255, 255, 0.08);
+  --glass-scrim: rgba(7, 10, 7, 0.64);
+  --glass-line: rgba(255, 255, 255, 0.18);
+  --glass-edge: rgba(255, 255, 255, 0.28);
+  --glass-radius: 0px;
+  --glass-fillLight: rgba(255, 255, 255, 0.30);
+  --glass-scrimLight: rgba(245, 246, 241, 0.70);
+  --glass-lineLight: rgba(7, 10, 7, 0.10);
+  --glass-edgeLight: rgba(255, 255, 255, 0.90);
+  --glass-flat: #12160F;
+  --glass-flatLight: #E7EAE1;
+}
+
+/* Role aliases. */
+:root {
+  --surface: var(--color-ink);
+  --surface-raised: var(--color-raised);
+  --surface-line: var(--color-line);
+  --on-surface: var(--color-text);
+  --on-surface-muted: var(--color-text600);
+  --on-surface-faint: var(--color-text500);
+  --accent: var(--color-accent);
+  --on-accent: var(--color-ink);
+  --font-display: var(--type-familyDisplay);
+  --font-body: var(--type-familyBody);
+  --font-arabic: var(--type-familyArabic);
+}
+
+:root[data-theme='light'] {
+  --surface: var(--color-paper);
+  --surface-raised: rgba(7, 10, 7, 0.05);
+  --surface-line: rgba(7, 10, 7, 0.14);
+  --on-surface: var(--color-ink);
+  --on-surface-muted: var(--color-textPaper);
+  --on-surface-faint: var(--color-textPaper);
+  --accent: var(--color-accentDeep);
+  --on-accent: var(--color-paper);
+}

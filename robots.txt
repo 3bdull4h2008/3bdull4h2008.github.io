@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://3bdull4h2008.github.io/sitemap.xml
