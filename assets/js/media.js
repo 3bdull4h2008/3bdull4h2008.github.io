@@ -6,7 +6,8 @@
   if (!clips.length) return;
   var quiet = window.matchMedia("(prefers-reduced-motion: reduce)");
   var conn = navigator.connection || {};
-  if (quiet.matches || conn.saveData) return;
+  var slow = /(^|-)2g$/.test(conn.effectiveType || "");
+  if (quiet.matches || conn.saveData || slow) return;
   function load(v) {
     if (v.getAttribute("src")) return;
     v.setAttribute("src", v.getAttribute("data-src"));

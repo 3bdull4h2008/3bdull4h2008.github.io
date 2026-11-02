@@ -213,6 +213,9 @@
   transition: transform 420ms cubic-bezier(.2, .7, .2, 1); }
 .work-strip a:hover img { transform: scale(1.025); }
 .work-strip a:hover { text-decoration: none; }
+@media (prefers-reduced-motion: reduce) {
+  .work-strip a:hover img { transform: none; }
+}
 .work-strip__cap { margin: 8px 0 0; font-family: var(--font-display);
   font-size: 10px; letter-spacing: 0.1em; text-transform: uppercase;
   color: var(--on-surface-faint); }
@@ -348,6 +351,8 @@
 .field input::placeholder, .field textarea::placeholder { color: var(--on-surface-faint); }
 .field input:focus, .field select:focus, .field textarea:focus {
   outline: none; border-color: var(--accent); }
+.field input:focus-visible, .field select:focus-visible, .field textarea:focus-visible {
+  outline: 2px solid var(--accent); outline-offset: 2px; }
 .field select option { background: var(--surface); color: var(--on-surface); }
 .field__hint { font-size: var(--type-micro); letter-spacing: 0.02em;
   color: var(--on-surface-faint); }
@@ -387,7 +392,8 @@
   font-family: var(--font-display); font-weight: 500; margin: 0 0 12px; }
 .foot-list { list-style: none; margin: 0; padding: 0;
   display: grid; gap: 7px; font-size: var(--type-small); }
-.foot-list a { color: var(--on-surface-muted); }
+.foot-list a { display: inline-block; padding-block: 3px;
+  color: var(--on-surface-muted); }
 .foot-list a:hover { color: var(--on-surface); }
 .foot-note { margin: 0; font-size: var(--type-small); max-width: 34ch; }
 .foot-note + .foot-note { margin-top: 6px; }

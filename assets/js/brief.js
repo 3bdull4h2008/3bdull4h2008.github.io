@@ -38,8 +38,10 @@
     var subject = (select && select.value === "free" ? "Free render request" : "Project brief") +
       " — " + (value("product") || "product visual");
 
+    var subjectField = form.querySelector('[name="_subject"]');
+    if (subjectField) subjectField.value = subject;
+
     var data = new FormData(form);
-    data.append("_subject", subject);
     data.append("_replyto", value("email"));
     data.append("Package", packageLabel);
 
