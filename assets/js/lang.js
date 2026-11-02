@@ -627,8 +627,8 @@
     themeLabel();
     langLabel();
   });
-  var first = "ar";
-  try { first = (localStorage.getItem("aa-lang") === "en") ? "en" : "ar"; }
+  var first = "en";
+  try { first = (localStorage.getItem("aa-lang") === "ar") ? "ar" : "en"; }
   catch (e) {}
   apply(first);
   themeLabel();
