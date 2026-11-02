@@ -8,6 +8,8 @@
     ar: {
       "skip": "تخطَّ إلى المحتوى",
       "nav.work": "الأعمال",
+      "nav.services": "الخدمات",
+      "nav.workWithMe": "اعمل معي",
       "nav.about": "نبذة",
       "nav.contact": "تواصل",
       "navAria": "التنقّل الرئيسي",
@@ -288,6 +290,8 @@
     en: {
       "skip": "Skip to content",
       "nav.work": "Work",
+      "nav.services": "Services",
+      "nav.workWithMe": "Work with me",
       "nav.about": "About",
       "nav.contact": "Contact",
       "navAria": "Primary",

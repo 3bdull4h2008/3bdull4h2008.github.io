@@ -305,3 +305,17 @@ button:hover { opacity: 0.9; }
   .site-head, .theme, .skip, .lang { display: none; }
   body { background: var(--color-paper); color: var(--color-ink); }
 }
+
+/* Five navigation items (Work, Services, Work with me, About, Contact) no
+   longer fit beside the brand and the two toggles on tablets. The nav takes
+   its own line before it can push the header sideways. */
+@media (max-width: 1080px) {
+  :target, [id] { scroll-margin-top: 120px; }
+  .site-head__inner { flex-wrap: wrap; row-gap: 6px; padding-block: 8px; }
+  .site-nav { order: 5; flex-basis: 100%; margin-inline-start: 0; }
+  .site-nav ul { gap: var(--space-sm) var(--space-lg); flex-wrap: wrap; }
+}
+@media (max-width: 620px) {
+  .site-nav ul { gap: 6px 10px; }
+  .site-nav a { font-size: 10px; letter-spacing: 0.1em; }
+}
