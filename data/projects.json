@@ -31,12 +31,12 @@
     "year": "2025",
     "blurb": "Metal is the whole exercise: brushing reads flat, polishing reads dark, and the bezel has to catch one edge without blowing out.",
     "note": "Three lighting setups were kept from the same scene so the set reads as one grade. The film takes the same case apart and holds the parts in the air, which is the only way to show what was actually modelled.",
-    "credit": "Depicts a Grand Seiko diver. An unsolicited study — Grand Seiko has not commissioned, supplied or endorsed this render.",
+    "credit": "A de-branded luxury dive-watch study. No brand affiliation.",
     "title_ar": "ساعة غوص",
     "subject_ar": "ساعة يد، لقطة قريبة وتفكيك",
     "blurb_ar": "المعدن هو التمرين كله: التصنفير يبدو مسطّحًا، والتلميع يبدو داكنًا، وعلى الإطار أن يلتقط حافة واحدة دون أن يحترق.",
     "note_ar": "أُبقيت ثلاث إعدادات إضاءة من المشهد نفسه ليُقرأ الطقم كتدريج لوني واحد. ويفكّ الفيلم علبة الساعة نفسها ويُعلّق الأجزاء في الهواء، وهي الطريقة الوحيدة لإظهار ما جرى نمذجته فعلًا.",
-    "credit_ar": "يُصوّر هذا العمل ساعة غوص من Grand Seiko. دراسة غير مُكلَّف بها؛ لم تكلّف Grand Seiko بإعدادها، ولم تزوّدها، ولم تصادق عليها.",
+    "credit_ar": "دراسة ساعة غوص فاخرة منزوعة العلامة التجارية. لا يوجد أي ارتباط بالعلامة.",
     "images": [
       "watch/poster.png",
       "watch/pic/3.png",
@@ -550,22 +550,22 @@
     "year": "2025",
     "blurb": "A second watch exercise, lit to read the dial texture and the bracelet finish at once.",
     "note": "Same case as the dive watch, different set of angles on a white ground and one longer grade pass.",
-    "credit": "Depicts a Grand Seiko diver. Unsolicited — Grand Seiko has not commissioned or endorsed this render.",
+    "credit": "A de-branded luxury dive-watch study. No brand affiliation.",
     "title_ar": "دراسة ساعة",
     "subject_ar": "ساعة يد، لقطة قريبة وإضاءة",
     "blurb_ar": "تمرين ثانٍ على ساعة، أُضيء ليُقرأ ملمس الميناء وتشطيب السوار في الوقت نفسه.",
     "note_ar": "نفس علبة ساعة الغوص، وزوايا مختلفة على أرضية بيضاء، وتمريرة تدريج لوني أطول.",
-    "credit_ar": "يُصوّر هذا العمل ساعة غوص من Grand Seiko. دراسة غير مُكلَّف بها؛ لم تكلّف Grand Seiko بإعدادها ولم تصادق عليها.",
+    "credit_ar": "دراسة ساعة غوص فاخرة منزوعة العلامة التجارية. لا يوجد أي ارتباط بالعلامة.",
     "images": [
       "watch/pic/4.png",
       "watch/pic/5.png"
     ],
     "alts": [
-      "A Grand Seiko diver on a white ground, the dial texture reading across the frame.",
+      "A de-branded luxury dive watch on a dark ground, the dial texture reading across the frame.",
       "The same watch in side profile, the bracelet links stacking out of frame."
     ],
     "alts_ar": [
-      "ساعة غوص من Grand Seiko على أرضية بيضاء، وملمس الميناء واضح عبر الإطار.",
+      "ساعة غوص فاخرة منزوعة العلامة التجارية على خلفية داكنة، مع تفاصيل المينا.",
       "الساعة نفسها بمنظر جانبي، ووصلات السوار تتراكم خارج الإطار."
     ],
     "video": null,
